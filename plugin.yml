@@ -1,0 +1,14 @@
+name: PlayTime
+api: 3.0.0
+author: TPE
+version: 1.0.0
+main: TPE\PlayTime\Main
+
+commands:
+  playtime:
+    permission: playtime.command
+    description: Informs the user how much they have played on the server.
+
+permissions:
+  playtime.command:
+    default: true
